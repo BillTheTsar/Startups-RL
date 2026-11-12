@@ -1,0 +1,5877 @@
+{
+  "format_version": 1,
+  "kind": "startups.neural_player",
+  "model_id": "neural_09d3af349300891cdedb04f245d1248e698b16620e3d72704a3ae7da34a51d07",
+  "name": "Neural 66dbaa173b0d4061acc6eafff1f447f9 game 20400",
+  "created_utc": "2026-11-07T19:05:30.991216+00:00",
+  "architecture": {
+    "name": "startups.q_network",
+    "version": 1,
+    "layers": [
+      332,
+      256,
+      256,
+      128,
+      41
+    ],
+    "hidden_activation": "relu",
+    "output": "q_values"
+  },
+  "model_dtype": "float32",
+  "observation_encoding": {
+    "name": "startups.flat_observation",
+    "version": 1,
+    "size": 332,
+    "dtype": "float32"
+  },
+  "action_codec": {
+    "version": 1,
+    "action_count": 41,
+    "actions": [
+      {
+        "id": 0,
+        "kind": "draw_deck",
+        "company_id": null,
+        "market_index": null
+      },
+      {
+        "id": 1,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 0
+      },
+      {
+        "id": 2,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 1
+      },
+      {
+        "id": 3,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 2
+      },
+      {
+        "id": 4,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 3
+      },
+      {
+        "id": 5,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 4
+      },
+      {
+        "id": 6,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 5
+      },
+      {
+        "id": 7,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 6
+      },
+      {
+        "id": 8,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 7
+      },
+      {
+        "id": 9,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 8
+      },
+      {
+        "id": 10,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 9
+      },
+      {
+        "id": 11,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 10
+      },
+      {
+        "id": 12,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 11
+      },
+      {
+        "id": 13,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 12
+      },
+      {
+        "id": 14,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 13
+      },
+      {
+        "id": 15,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 14
+      },
+      {
+        "id": 16,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 15
+      },
+      {
+        "id": 17,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 16
+      },
+      {
+        "id": 18,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 17
+      },
+      {
+        "id": 19,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 18
+      },
+      {
+        "id": 20,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 19
+      },
+      {
+        "id": 21,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 20
+      },
+      {
+        "id": 22,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 21
+      },
+      {
+        "id": 23,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 22
+      },
+      {
+        "id": 24,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 23
+      },
+      {
+        "id": 25,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 24
+      },
+      {
+        "id": 26,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 25
+      },
+      {
+        "id": 27,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 26
+      },
+      {
+        "id": 28,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 27
+      },
+      {
+        "id": 29,
+        "kind": "invest",
+        "company_id": 5,
+        "market_index": null
+      },
+      {
+        "id": 30,
+        "kind": "invest",
+        "company_id": 6,
+        "market_index": null
+      },
+      {
+        "id": 31,
+        "kind": "invest",
+        "company_id": 7,
+        "market_index": null
+      },
+      {
+        "id": 32,
+        "kind": "invest",
+        "company_id": 8,
+        "market_index": null
+      },
+      {
+        "id": 33,
+        "kind": "invest",
+        "company_id": 9,
+        "market_index": null
+      },
+      {
+        "id": 34,
+        "kind": "invest",
+        "company_id": 10,
+        "market_index": null
+      },
+      {
+        "id": 35,
+        "kind": "offer_to_market",
+        "company_id": 5,
+        "market_index": null
+      },
+      {
+        "id": 36,
+        "kind": "offer_to_market",
+        "company_id": 6,
+        "market_index": null
+      },
+      {
+        "id": 37,
+        "kind": "offer_to_market",
+        "company_id": 7,
+        "market_index": null
+      },
+      {
+        "id": 38,
+        "kind": "offer_to_market",
+        "company_id": 8,
+        "market_index": null
+      },
+      {
+        "id": 39,
+        "kind": "offer_to_market",
+        "company_id": 9,
+        "market_index": null
+      },
+      {
+        "id": 40,
+        "kind": "offer_to_market",
+        "company_id": 10,
+        "market_index": null
+      }
+    ]
+  },
+  "selection": {
+    "mode": "greedy",
+    "legal_actions_only": true,
+    "tie_break": "lowest_action_id"
+  },
+  "weights_file": "weights.pt",
+  "weights_sha256": "b206a1e68aa7e97f54916ec51fbd7c7a0445c1b72f36b38ad537a103f30f06aa",
+  "provenance": {
+    "source": "opponent_admission",
+    "run_id": "66dbaa173b0d4061acc6eafff1f447f9",
+    "completed_games": 20400,
+    "mean_reward": 0.61,
+    "opponent_admission_threshold": 0.6,
+    "evaluated_pool": [
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.random_player.RandomPlayer",
+          "name": "RandomPlayer",
+          "parameters": null,
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "RandomPlayer"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdPlayer1",
+          "parameters": {
+            "coin_pickup_threshold": 3,
+            "hand_pickup_threshold": 2,
+            "investment_divisor": 3,
+            "own_pickup_threshold": 3
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdPlayer1"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdPlayer2",
+          "parameters": {
+            "coin_pickup_threshold": 3,
+            "hand_pickup_threshold": 1,
+            "investment_divisor": 4,
+            "own_pickup_threshold": 3
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdPlayer2"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdPlayer3",
+          "parameters": {
+            "coin_pickup_threshold": 3,
+            "hand_pickup_threshold": 1,
+            "investment_divisor": 3,
+            "own_pickup_threshold": 3
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdPlayer3"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdPlayer4",
+          "parameters": {
+            "coin_pickup_threshold": 2,
+            "hand_pickup_threshold": 1,
+            "investment_divisor": 3,
+            "own_pickup_threshold": 2
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdPlayer4"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdPlayer5",
+          "parameters": {
+            "coin_pickup_threshold": 3,
+            "hand_pickup_threshold": 2,
+            "investment_divisor": 3,
+            "own_pickup_threshold": 4
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdPlayer5"
+      },
+      {
+        "config": {
+          "chicken": true,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdChicken1",
+          "parameters": {
+            "coin_pickup_threshold": 3,
+            "hand_pickup_threshold": 2,
+            "investment_divisor": 3,
+            "own_pickup_threshold": 3
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdChicken1"
+      },
+      {
+        "config": {
+          "chicken": true,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdChicken2",
+          "parameters": {
+            "coin_pickup_threshold": 3,
+            "hand_pickup_threshold": 1,
+            "investment_divisor": 4,
+            "own_pickup_threshold": 3
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdChicken2"
+      },
+      {
+        "config": {
+          "chicken": true,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdChicken3",
+          "parameters": {
+            "coin_pickup_threshold": 3,
+            "hand_pickup_threshold": 1,
+            "investment_divisor": 3,
+            "own_pickup_threshold": 3
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdChicken3"
+      },
+      {
+        "config": {
+          "chicken": true,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdChicken4",
+          "parameters": {
+            "coin_pickup_threshold": 2,
+            "hand_pickup_threshold": 1,
+            "investment_divisor": 3,
+            "own_pickup_threshold": 2
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdChicken4"
+      },
+      {
+        "config": {
+          "chicken": true,
+          "class": "players.rule_based.threshold_player.ThresholdPlayer",
+          "name": "ThresholdChicken5",
+          "parameters": {
+            "coin_pickup_threshold": 3,
+            "hand_pickup_threshold": 2,
+            "investment_divisor": 3,
+            "own_pickup_threshold": 4
+          },
+          "weights": null
+        },
+        "kind": "rule_based",
+        "model_id": "ThresholdChicken5"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer1)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": 1,
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -2,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer1"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer2)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": 2,
+            "dominated_investment_value": -1,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -1,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer2"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer3)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 4,
+              "numerator": 3
+            },
+            "commitment_per_investment": 1,
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -3,
+            "offer_risk_per_card": -2
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer3"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer4)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": {
+              "denominator": 2,
+              "numerator": 3
+            },
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -1,
+            "offer_risk_per_card": -2
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer4"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer5)",
+          "parameters": null,
+          "weights": {
+            "coin_value": 1,
+            "commitment_per_investment": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              2,
+              3
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -2,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer5"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer6)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "commitment_per_investment": {
+              "denominator": 2,
+              "numerator": 3
+            },
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              2,
+              5,
+              8
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -2,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer6"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer7)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": 1,
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              2,
+              6
+            ],
+            "new_token_value": -1,
+            "offer_risk_per_card": -2
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer7"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer8)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -8,
+              -4,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -3,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer8"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer9)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "commitment_per_investment": 1,
+            "dominated_investment_value": -1,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": 0,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer9"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer10)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 4,
+              "numerator": 3
+            },
+            "commitment_per_investment": 1,
+            "dominated_investment_value": -3,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              5
+            ],
+            "new_token_value": -4,
+            "offer_risk_per_card": -2
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer10"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer11)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              2,
+              4,
+              6
+            ],
+            "hand_values": [
+              2,
+              2,
+              0,
+              0,
+              -2,
+              -2
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -2,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer11"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer12)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": 1,
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              2,
+              4,
+              6
+            ],
+            "hand_values": [
+              -1,
+              -1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -1,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer12"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer13)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "commitment_per_investment": 3,
+            "dominated_investment_value": -1,
+            "excess_card_value": 0,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -1,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer13"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer14)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 4,
+              "numerator": 3
+            },
+            "commitment_per_investment": 0,
+            "dominated_investment_value": -3,
+            "excess_card_value": -2,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -2,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer14"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer15)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 4,
+              "numerator": 3
+            },
+            "commitment_per_investment": 1,
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              3,
+              4,
+              5
+            ],
+            "hand_values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -2,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer15"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer16)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": {
+              "denominator": 2,
+              "numerator": 3
+            },
+            "dominated_investment_value": -2,
+            "excess_card_value": 0,
+            "group_values": [
+              0,
+              0,
+              0,
+              5,
+              6
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -2,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer16"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer17)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": 2,
+            "dominated_investment_value": -2,
+            "excess_card_value": 0,
+            "group_values": [
+              0,
+              0,
+              0,
+              1,
+              8
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -1,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer17"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer18)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": 1,
+            "dominated_investment_value": -2,
+            "excess_card_value": -1,
+            "group_values": [
+              0,
+              0,
+              1,
+              3,
+              5
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -5,
+              -3,
+              0,
+              1,
+              4
+            ],
+            "new_token_value": -1,
+            "offer_risk_per_card": -4
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer18"
+      },
+      {
+        "config": {
+          "chicken": false,
+          "class": "players.rule_based.weighted_ranking_player.WeightedRankingPlayer",
+          "name": "Ranking (RankingPlayer19)",
+          "parameters": null,
+          "weights": {
+            "coin_value": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "commitment_per_investment": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "dominated_investment_value": -4,
+            "excess_card_value": -3,
+            "group_values": [
+              0,
+              0,
+              1,
+              2,
+              3
+            ],
+            "hand_values": [
+              1,
+              1,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "majority_values": [
+              -4,
+              -2,
+              0,
+              1,
+              3
+            ],
+            "new_token_value": -2,
+            "offer_risk_per_card": -1
+          }
+        },
+        "kind": "rule_based",
+        "model_id": "RankingPlayer19"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_0248b2133dd4d7dc9f0ab1604a89a7fe6d691032a85e87dfb89574211fb9eb33",
+          "model_dtype": "float32",
+          "name": "Neural11",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "50c981481c0b29e7e5688244ded6436da358161a4fdc049144ebc7912cf48977"
+        },
+        "kind": "neural",
+        "model_id": "neural_0248b2133dd4d7dc9f0ab1604a89a7fe6d691032a85e87dfb89574211fb9eb33"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_02a1af21c131693f71cdaee7f367f193207c8b2eb040a81ea8aba3a13c48d5a2",
+          "model_dtype": "float32",
+          "name": "Neural12",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "f54b9febb1ed4094299503cf1dfa403d3c5599acaac980b7dfd5537dc63f7dcb"
+        },
+        "kind": "neural",
+        "model_id": "neural_02a1af21c131693f71cdaee7f367f193207c8b2eb040a81ea8aba3a13c48d5a2"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_24efbd9ccd9a2324e03f1a56e469c597e9c88b25fb52f3715562c0802ca16591",
+          "model_dtype": "float32",
+          "name": "Neural7",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "182b7c0b98a2aebf832faad51d48fbcffda1d97e99de7ed9d8fb3bd519ef0897"
+        },
+        "kind": "neural",
+        "model_id": "neural_24efbd9ccd9a2324e03f1a56e469c597e9c88b25fb52f3715562c0802ca16591"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_2ddd86d0bde1a5075665930a13c09326520f95d0bfce27a8452cadc35be8206c",
+          "model_dtype": "float32",
+          "name": "Neural10",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "8e9935de80e884c526ad263b3f0b50185d406880b76452d821e572c1519367f3"
+        },
+        "kind": "neural",
+        "model_id": "neural_2ddd86d0bde1a5075665930a13c09326520f95d0bfce27a8452cadc35be8206c"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_3d83ece64d6d9136d6bf815959bf9815f971f7d2b12c4a953033da7b7622cc15",
+          "model_dtype": "float32",
+          "name": "Neural2",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "b25d2c2fe615c318097b2b2e7f7ef94ed51687d18c1a87370849a2ff97a73f8c"
+        },
+        "kind": "neural",
+        "model_id": "neural_3d83ece64d6d9136d6bf815959bf9815f971f7d2b12c4a953033da7b7622cc15"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_4094042b488fd7f957c2c9b0b4b0d9e2ccf43edad94ff7777549f1ca083559d0",
+          "model_dtype": "float32",
+          "name": "Neural3",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "4b2b08a2cb18de0a01ac62aaa3fb818ccf100edfdd0cc88c45a4b14bf6a6d0d9"
+        },
+        "kind": "neural",
+        "model_id": "neural_4094042b488fd7f957c2c9b0b4b0d9e2ccf43edad94ff7777549f1ca083559d0"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_523b64883409b44c346529374ffd719f154284ac9186a06cfd3d97e26c35421b",
+          "model_dtype": "float32",
+          "name": "Neural6",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "06fbd1dda857602c2a9eee11dcc10e8c48ac6430c85fbfe839a4de676ba7c4e7"
+        },
+        "kind": "neural",
+        "model_id": "neural_523b64883409b44c346529374ffd719f154284ac9186a06cfd3d97e26c35421b"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_702c6fb03b0373721e5a03043d0cc8e21af99dd2215585b5aa749c43341bd2fb",
+          "model_dtype": "float32",
+          "name": "Neural1",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "6bf9321687f2d86154325131966ab492708f804007ed8ad049f26d5aa1c3d436"
+        },
+        "kind": "neural",
+        "model_id": "neural_702c6fb03b0373721e5a03043d0cc8e21af99dd2215585b5aa749c43341bd2fb"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_9a75cc3aaf90ae212cdfe1eb574fb03b865dd90949e1d0d627833e9bcd738c64",
+          "model_dtype": "float32",
+          "name": "Neural5",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "cc280a28711c3567376c9ab7f623b5a3e841cc763421622a12d1f9604b402046"
+        },
+        "kind": "neural",
+        "model_id": "neural_9a75cc3aaf90ae212cdfe1eb574fb03b865dd90949e1d0d627833e9bcd738c64"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_aec2bb5e549a01c0db27d015552ec47db8d578e36e5191e3d7a9492d4f7e7b47",
+          "model_dtype": "float32",
+          "name": "Neural8",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "c11a90c659b51934915e26ba451bdcfd5e015afb0851e6999c54edddf34f5074"
+        },
+        "kind": "neural",
+        "model_id": "neural_aec2bb5e549a01c0db27d015552ec47db8d578e36e5191e3d7a9492d4f7e7b47"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_aec33fe3fddd9f838c2de2aa092a5021df5be6036b1ef9471b9adf900eceac64",
+          "model_dtype": "float32",
+          "name": "Neural4",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "1409575b4f7155189af8ff035ae1e12a895a8689ae920afbd1dcefc5600ea9e5"
+        },
+        "kind": "neural",
+        "model_id": "neural_aec33fe3fddd9f838c2de2aa092a5021df5be6036b1ef9471b9adf900eceac64"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_cc021d3ca69072f328798b54aebbc4d88e16315fc498e66302c62de25d9acd2d",
+          "model_dtype": "float32",
+          "name": "Neural9",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "ceb6807b53e8cbe090cbd9511c5beecbb57b89ac6e454a9f4fa62bae334a2c51"
+        },
+        "kind": "neural",
+        "model_id": "neural_cc021d3ca69072f328798b54aebbc4d88e16315fc498e66302c62de25d9acd2d"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_6dbf8d66884a3883b1b1869dd7446f03d1cd76c34f38a9f52afdc41e4220e144",
+          "model_dtype": "float32",
+          "name": "Neural 0e17b069521246cfb3d96129a143c0f1 game 11200",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "b1a616c6076282df3c3473c68c9351fae6b7a5c1ebb6daa632177cac664576fd"
+        },
+        "kind": "neural",
+        "model_id": "neural_6dbf8d66884a3883b1b1869dd7446f03d1cd76c34f38a9f52afdc41e4220e144"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_5ad99ddbcc829f991e3d39e894aeb0057225d5fcf778db9e700c1a891c600a69",
+          "model_dtype": "float32",
+          "name": "Neural 0e17b069521246cfb3d96129a143c0f1 game 36400",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "5ad0952a434cb27e3a5c6a5be7e48b036e29ceae4a05c1b682a17b035c8934dc"
+        },
+        "kind": "neural",
+        "model_id": "neural_5ad99ddbcc829f991e3d39e894aeb0057225d5fcf778db9e700c1a891c600a69"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_3042365849e538a590b1394e9af87193431079bad4c8650e3665dcf986c1625a",
+          "model_dtype": "float32",
+          "name": "Neural 66dbaa173b0d4061acc6eafff1f447f9 game 9600",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "75370d28b5c9d942ba5c22d657bf559458e10ddd8357cf28d6d741dfbccd07f8"
+        },
+        "kind": "neural",
+        "model_id": "neural_3042365849e538a590b1394e9af87193431079bad4c8650e3665dcf986c1625a"
+      },
+      {
+        "config": {
+          "action_codec": {
+            "action_count": 41,
+            "actions": [
+              {
+                "company_id": null,
+                "id": 0,
+                "kind": "draw_deck",
+                "market_index": null
+              },
+              {
+                "company_id": null,
+                "id": 1,
+                "kind": "take_market",
+                "market_index": 0
+              },
+              {
+                "company_id": null,
+                "id": 2,
+                "kind": "take_market",
+                "market_index": 1
+              },
+              {
+                "company_id": null,
+                "id": 3,
+                "kind": "take_market",
+                "market_index": 2
+              },
+              {
+                "company_id": null,
+                "id": 4,
+                "kind": "take_market",
+                "market_index": 3
+              },
+              {
+                "company_id": null,
+                "id": 5,
+                "kind": "take_market",
+                "market_index": 4
+              },
+              {
+                "company_id": null,
+                "id": 6,
+                "kind": "take_market",
+                "market_index": 5
+              },
+              {
+                "company_id": null,
+                "id": 7,
+                "kind": "take_market",
+                "market_index": 6
+              },
+              {
+                "company_id": null,
+                "id": 8,
+                "kind": "take_market",
+                "market_index": 7
+              },
+              {
+                "company_id": null,
+                "id": 9,
+                "kind": "take_market",
+                "market_index": 8
+              },
+              {
+                "company_id": null,
+                "id": 10,
+                "kind": "take_market",
+                "market_index": 9
+              },
+              {
+                "company_id": null,
+                "id": 11,
+                "kind": "take_market",
+                "market_index": 10
+              },
+              {
+                "company_id": null,
+                "id": 12,
+                "kind": "take_market",
+                "market_index": 11
+              },
+              {
+                "company_id": null,
+                "id": 13,
+                "kind": "take_market",
+                "market_index": 12
+              },
+              {
+                "company_id": null,
+                "id": 14,
+                "kind": "take_market",
+                "market_index": 13
+              },
+              {
+                "company_id": null,
+                "id": 15,
+                "kind": "take_market",
+                "market_index": 14
+              },
+              {
+                "company_id": null,
+                "id": 16,
+                "kind": "take_market",
+                "market_index": 15
+              },
+              {
+                "company_id": null,
+                "id": 17,
+                "kind": "take_market",
+                "market_index": 16
+              },
+              {
+                "company_id": null,
+                "id": 18,
+                "kind": "take_market",
+                "market_index": 17
+              },
+              {
+                "company_id": null,
+                "id": 19,
+                "kind": "take_market",
+                "market_index": 18
+              },
+              {
+                "company_id": null,
+                "id": 20,
+                "kind": "take_market",
+                "market_index": 19
+              },
+              {
+                "company_id": null,
+                "id": 21,
+                "kind": "take_market",
+                "market_index": 20
+              },
+              {
+                "company_id": null,
+                "id": 22,
+                "kind": "take_market",
+                "market_index": 21
+              },
+              {
+                "company_id": null,
+                "id": 23,
+                "kind": "take_market",
+                "market_index": 22
+              },
+              {
+                "company_id": null,
+                "id": 24,
+                "kind": "take_market",
+                "market_index": 23
+              },
+              {
+                "company_id": null,
+                "id": 25,
+                "kind": "take_market",
+                "market_index": 24
+              },
+              {
+                "company_id": null,
+                "id": 26,
+                "kind": "take_market",
+                "market_index": 25
+              },
+              {
+                "company_id": null,
+                "id": 27,
+                "kind": "take_market",
+                "market_index": 26
+              },
+              {
+                "company_id": null,
+                "id": 28,
+                "kind": "take_market",
+                "market_index": 27
+              },
+              {
+                "company_id": 5,
+                "id": 29,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 30,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 31,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 32,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 33,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 34,
+                "kind": "invest",
+                "market_index": null
+              },
+              {
+                "company_id": 5,
+                "id": 35,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 6,
+                "id": 36,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 7,
+                "id": 37,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 8,
+                "id": 38,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 9,
+                "id": 39,
+                "kind": "offer_to_market",
+                "market_index": null
+              },
+              {
+                "company_id": 10,
+                "id": 40,
+                "kind": "offer_to_market",
+                "market_index": null
+              }
+            ],
+            "version": 1
+          },
+          "architecture": {
+            "hidden_activation": "relu",
+            "layers": [
+              332,
+              256,
+              256,
+              128,
+              41
+            ],
+            "name": "startups.q_network",
+            "output": "q_values",
+            "version": 1
+          },
+          "artifact_path": "D:\\Startups\\players\\neural\\weights\\neural_749e986c564eaab12fae2a89b81f9965406f97cb58e6a1538689c5042df31b18",
+          "model_dtype": "float32",
+          "name": "Neural 66dbaa173b0d4061acc6eafff1f447f9 game 16800",
+          "observation_encoding": {
+            "dtype": "float32",
+            "name": "startups.flat_observation",
+            "size": 332,
+            "version": 1
+          },
+          "selection": {
+            "legal_actions_only": true,
+            "mode": "greedy",
+            "tie_break": "lowest_action_id"
+          },
+          "weights_sha256": "74649fd831f0d0f76b056095b84177c7563574b77ad759c35572735453f533c5"
+        },
+        "kind": "neural",
+        "model_id": "neural_749e986c564eaab12fae2a89b81f9965406f97cb58e6a1538689c5042df31b18"
+      }
+    ]
+  }
+}

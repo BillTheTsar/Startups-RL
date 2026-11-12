@@ -1,0 +1,10 @@
+name: Startups
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - numpy=2.5.4
+  - pip
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cu130
+      - torch==2.14.1+cu130

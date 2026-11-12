@@ -1,0 +1,39 @@
+{
+  "config_version": 1,
+  "network_layers": [
+    332,
+    256,
+    256,
+    128,
+    41
+  ],
+  "optimizer": "AdamW",
+  "loss": "mse",
+  "observation_encoding": {
+    "name": "startups.flat_observation",
+    "version": 1,
+    "size": 332,
+    "dtype": "float32"
+  },
+  "action_codec_version": 1,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "gamma": 1.0,
+  "target_tau": 0.1,
+  "target_update_interval": 1000,
+  "epsilon_start": 0.5,
+  "epsilon_end": 0.01,
+  "epsilon_decay_games": 20000,
+  "training_games": 40000,
+  "evaluation_interval_games": 200,
+  "evaluation_games": 200,
+  "checkpoint_interval_games": 200,
+  "promotion_threshold": 0.45,
+  "max_actions_per_game": 10000,
+  "demo_capacity": 20000,
+  "non_demo_capacity": 40000,
+  "demo_batch_size": 32,
+  "non_demo_batch_size": 32,
+  "seed": 42,
+  "device": "cuda"
+}

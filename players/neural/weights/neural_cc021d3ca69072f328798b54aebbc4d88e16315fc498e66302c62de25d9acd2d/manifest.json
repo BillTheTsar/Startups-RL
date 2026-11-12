@@ -1,0 +1,336 @@
+{
+  "format_version": 1,
+  "kind": "startups.neural_player",
+  "model_id": "neural_cc021d3ca69072f328798b54aebbc4d88e16315fc498e66302c62de25d9acd2d",
+  "name": "Neural9",
+  "created_utc": "2026-11-05T13:06:49.490660+00:00",
+  "architecture": {
+    "name": "startups.q_network",
+    "version": 1,
+    "layers": [
+      332,
+      256,
+      256,
+      128,
+      41
+    ],
+    "hidden_activation": "relu",
+    "output": "q_values"
+  },
+  "model_dtype": "float32",
+  "observation_encoding": {
+    "name": "startups.flat_observation",
+    "version": 1,
+    "size": 332,
+    "dtype": "float32"
+  },
+  "action_codec": {
+    "version": 1,
+    "action_count": 41,
+    "actions": [
+      {
+        "id": 0,
+        "kind": "draw_deck",
+        "company_id": null,
+        "market_index": null
+      },
+      {
+        "id": 1,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 0
+      },
+      {
+        "id": 2,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 1
+      },
+      {
+        "id": 3,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 2
+      },
+      {
+        "id": 4,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 3
+      },
+      {
+        "id": 5,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 4
+      },
+      {
+        "id": 6,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 5
+      },
+      {
+        "id": 7,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 6
+      },
+      {
+        "id": 8,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 7
+      },
+      {
+        "id": 9,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 8
+      },
+      {
+        "id": 10,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 9
+      },
+      {
+        "id": 11,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 10
+      },
+      {
+        "id": 12,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 11
+      },
+      {
+        "id": 13,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 12
+      },
+      {
+        "id": 14,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 13
+      },
+      {
+        "id": 15,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 14
+      },
+      {
+        "id": 16,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 15
+      },
+      {
+        "id": 17,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 16
+      },
+      {
+        "id": 18,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 17
+      },
+      {
+        "id": 19,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 18
+      },
+      {
+        "id": 20,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 19
+      },
+      {
+        "id": 21,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 20
+      },
+      {
+        "id": 22,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 21
+      },
+      {
+        "id": 23,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 22
+      },
+      {
+        "id": 24,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 23
+      },
+      {
+        "id": 25,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 24
+      },
+      {
+        "id": 26,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 25
+      },
+      {
+        "id": 27,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 26
+      },
+      {
+        "id": 28,
+        "kind": "take_market",
+        "company_id": null,
+        "market_index": 27
+      },
+      {
+        "id": 29,
+        "kind": "invest",
+        "company_id": 5,
+        "market_index": null
+      },
+      {
+        "id": 30,
+        "kind": "invest",
+        "company_id": 6,
+        "market_index": null
+      },
+      {
+        "id": 31,
+        "kind": "invest",
+        "company_id": 7,
+        "market_index": null
+      },
+      {
+        "id": 32,
+        "kind": "invest",
+        "company_id": 8,
+        "market_index": null
+      },
+      {
+        "id": 33,
+        "kind": "invest",
+        "company_id": 9,
+        "market_index": null
+      },
+      {
+        "id": 34,
+        "kind": "invest",
+        "company_id": 10,
+        "market_index": null
+      },
+      {
+        "id": 35,
+        "kind": "offer_to_market",
+        "company_id": 5,
+        "market_index": null
+      },
+      {
+        "id": 36,
+        "kind": "offer_to_market",
+        "company_id": 6,
+        "market_index": null
+      },
+      {
+        "id": 37,
+        "kind": "offer_to_market",
+        "company_id": 7,
+        "market_index": null
+      },
+      {
+        "id": 38,
+        "kind": "offer_to_market",
+        "company_id": 8,
+        "market_index": null
+      },
+      {
+        "id": 39,
+        "kind": "offer_to_market",
+        "company_id": 9,
+        "market_index": null
+      },
+      {
+        "id": 40,
+        "kind": "offer_to_market",
+        "company_id": 10,
+        "market_index": null
+      }
+    ]
+  },
+  "selection": {
+    "mode": "greedy",
+    "legal_actions_only": true,
+    "tie_break": "lowest_action_id"
+  },
+  "weights_file": "weights.pt",
+  "weights_sha256": "ceb6807b53e8cbe090cbd9511c5beecbb57b89ac6e454a9f4fa62bae334a2c51",
+  "provenance": {
+    "source_checkpoint": "D:\\Startups\\results\\training\\20261105T060816Z_8060854903a6\\even_greater.pt",
+    "source_sha256": "b1166eb82fd5346c35ffde8c11434eaf5c811a93b0928c89f367d8b2c454380e",
+    "checkpoint_kind": "best",
+    "training_config": {
+      "config_version": 1,
+      "network_layers": [
+        332,
+        256,
+        256,
+        128,
+        41
+      ],
+      "optimizer": "AdamW",
+      "loss": "mse",
+      "observation_encoding": {
+        "name": "startups.flat_observation",
+        "version": 1,
+        "size": 332,
+        "dtype": "float32"
+      },
+      "action_codec_version": 1,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.0001,
+      "gamma": 1.0,
+      "target_tau": 0.1,
+      "target_update_interval": 1000,
+      "epsilon_start": 0.5,
+      "epsilon_end": 0.01,
+      "epsilon_decay_games": 20000,
+      "training_games": 40000,
+      "evaluation_interval_games": 200,
+      "evaluation_games": 200,
+      "checkpoint_interval_games": 200,
+      "promotion_threshold": 0.45,
+      "max_actions_per_game": 10000,
+      "demo_capacity": 20000,
+      "non_demo_capacity": 40000,
+      "demo_batch_size": 32,
+      "non_demo_batch_size": 32,
+      "seed": 42,
+      "device": "cuda"
+    },
+    "metadata": {
+      "run_id": "8060854903a64adab81935c0978f782d",
+      "game": 28400,
+      "mean_reward": 0.7775,
+      "model_fingerprint": "f7a7ded35a1226aa6dcf3dde4ea85054b6336a59c253624e3c3d7e72fc02e2b8"
+    }
+  }
+}

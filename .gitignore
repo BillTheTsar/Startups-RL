@@ -1,0 +1,50 @@
+# Generated replay archives and experiment outputs.
+/buffer_data/
+/results/
+
+# Keep the test suite local.
+/tests/
+
+# Local editor settings.
+/.vscode/
+/.idea/
+
+# Diagnostic write-ups are local. Keep their figures and
+# docs/experimental_observations.md, along with the other guides.
+/docs/diagnose/**/*.md
+
+# Python bytecode, tool caches, coverage and packaging output.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local environments and private environment-variable files.
+/.venv/
+/venv/
+/env/
+/.conda/
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Operating-system clutter.
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Deliberately keep configs/ and all of
+# players/neural/weights/ (manifests, weights.pt and future exports).
+# Do not add blanket rules for JSON, PNG or PyTorch model files.
